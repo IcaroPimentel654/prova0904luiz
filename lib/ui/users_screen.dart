@@ -20,6 +20,11 @@ class UsersScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ListView.builder(
+          // metodo getPersons() retorna uma List<Person>
+          // seguindo o padrão do getExample()
+          // que retorna um objeto Person
+          // porem retornando uma lista para ser exibida
+          // na tela de usuarios
           itemCount: Users().getPersons().length,
           itemBuilder: (context, index) {
             final users = Users().getPersons();

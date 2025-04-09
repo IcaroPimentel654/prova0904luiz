@@ -9,6 +9,9 @@ void main() {
 class ProjetoProva extends StatelessWidget {
   const ProjetoProva({super.key});
 
+  //rotas do app
+  // home: tela inicial
+  // users: tela de usuarios
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

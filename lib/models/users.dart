@@ -1,5 +1,6 @@
 import 'package:projeto_prova/person.dart';
 
+// modelo que armazena os dados das pessoas de forma simples.
 class Users {
   final List<Person> persons = [
     Person(
