@@ -18,7 +18,7 @@ class PersonWidget extends StatelessWidget {
               children: [
                 CircleAvatar(
                   backgroundImage: AssetImage(person.imagePath),
-                  radius: 30,
+                  radius: 40,
                 ),
                 const SizedBox(width: 16),
                 Column(
