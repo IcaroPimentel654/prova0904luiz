@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_prova/models/users.dart';
-import 'package:projeto_prova/person.dart';
 import 'package:projeto_prova/ui/person_widget.dart';
 
 class UsersScreen extends StatelessWidget {
@@ -21,7 +20,7 @@ class UsersScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ListView.builder(
-          itemCount: 10,
+          itemCount: Users().getPersons().length,
           itemBuilder: (context, index) {
             final users = Users().getPersons();
             return PersonWidget(person: users[index]);

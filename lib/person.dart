@@ -21,10 +21,10 @@ class Person {
 
   static Person getExample() {
     return Person(
-      imagePath: "assets/homer.jpg",
+      imagePath: "assets/levi.jpg",
       id: "A_NICE_GENERATED_ID",
-      name: "Homer",
-      lastName: "Simpson",
+      name: "Levi",
+      lastName: "Ackerman",
       number: "+5581912345678",
       cpf: "123.456.789-00",
       birthday: DateTime.parse("1846-02-10"),

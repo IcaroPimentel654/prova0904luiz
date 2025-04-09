@@ -3,8 +3,18 @@ import 'package:projeto_prova/person.dart';
 class Users {
   final List<Person> persons = [
     Person(
-      imagePath: "assets/homer.jpg",
+      imagePath: "assets/levi.jpg",
       id: "1",
+      name: "Levi",
+      lastName: "Ackerman",
+      number: "+5581912345678",
+      cpf: "123.456.789-00",
+      birthday: DateTime.parse("1846-02-10"),
+      registeredAt: DateTime.now(),
+    ),
+    Person(
+      imagePath: "assets/homer.jpg",
+      id: "2",
       name: "Homer",
       lastName: "Simpson",
       number: "+5581912345678",
@@ -14,7 +24,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/spiderman.jpg",
-      id: "2",
+      id: "3",
       name: "Peter",
       lastName: "Parker",
       number: "+5581923456789",
@@ -24,7 +34,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/hulk.png",
-      id: "3",
+      id: "4",
       name: "Bruce",
       lastName: "Banner",
       number: "+5581934567890",
@@ -34,7 +44,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/ironman.jpg",
-      id: "4",
+      id: "5",
       name: "Tony",
       lastName: "Stark",
       number: "+5581945678901",
@@ -44,7 +54,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/thor.jpg",
-      id: "5",
+      id: "6",
       name: "Thor",
       lastName: "Odinson",
       number: "+5581956789012",
@@ -54,7 +64,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/wonderwoman.jpg",
-      id: "6",
+      id: "7",
       name: "Diana",
       lastName: "Prince",
       number: "+5581967890123",
@@ -64,7 +74,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/batman.jpg",
-      id: "7",
+      id: "8",
       name: "Bruce",
       lastName: "Wayne",
       number: "+5581978901234",
@@ -74,7 +84,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/superman.jpg",
-      id: "8",
+      id: "9",
       name: "Clark",
       lastName: "Kent",
       number: "+5581989012345",
@@ -84,7 +94,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/captainamerica.jpg",
-      id: "9",
+      id: "10",
       name: "Steve",
       lastName: "Rogers",
       number: "+5581990123456",
@@ -94,7 +104,7 @@ class Users {
     ),
     Person(
       imagePath: "assets/blackwidow.jpg",
-      id: "10",
+      id: "11",
       name: "Natasha",
       lastName: "Romanoff",
       number: "+5581912345678",
