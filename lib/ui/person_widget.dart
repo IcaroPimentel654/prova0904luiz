@@ -40,13 +40,13 @@ class PersonWidget extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 16),
-            Text('Phone: ${person.number}'),
+            Text('Telefone: ${person.number}'),
             Text('CPF: ${person.cpf}'),
             Text(
-              'Birthday: ${person.birthday.toLocal().toString().split(' ')[0]}',
+              'Aniversário: ${person.birthday.toLocal().toString().split(' ')[0]}',
             ),
             Text(
-              'Registered At: ${person.registeredAt.toLocal().toString().split(' ')[0]}',
+              'Registrado em: ${person.registeredAt.toLocal().toString().split(' ')[0]}',
             ),
           ],
         ),
