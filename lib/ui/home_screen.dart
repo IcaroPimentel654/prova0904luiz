@@ -31,6 +31,8 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
           Center(
+            // acessa a rota 'users' ao clicar no botao
+            // usando o pushReplacementNamed para substituir a tela atual
             child: ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacementNamed(context, 'users');

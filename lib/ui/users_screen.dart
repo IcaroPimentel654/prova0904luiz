@@ -13,6 +13,8 @@ class UsersScreen extends StatelessWidget {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
+            // ao clicar no botao de voltar, o app volta para a tela inicial
+            // usando o pushReplacementNamed para substituir a tela atual
             Navigator.pushReplacementNamed(context, 'home');
           },
         ),
